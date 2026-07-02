@@ -1,0 +1,6 @@
+{
+  "name": "AIC PropTech & Luxe Domus",
+  "description": "Ecosistema integrado de inteligência imobiliária com site público (AIC Empreendimentos), painel do cliente para locações (Luxe Domus) e painel administrativo (CRM de vendas, contratos, manutenção e financeiro).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

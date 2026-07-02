@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-hanken), sans-serif;
+  --font-display: var(--font-sora), sans-serif;
+  
+  /* Brand 1 Colors: AIC Empreendimentos */
+  --color-brand-primary: #715530;
+  --color-burnt-gold: #B38B4D;
+  --color-metallic-cobre: #A67B5B;
+  --color-industrial-slate: #4A4A4A;
+  --color-platinum-gray: #F5F5F7;
+  --color-accent-orange: #EF6C00;
+  
+  /* Brand 2 Colors: Luxe Domus */
+  --color-luxe-dark: #181b27;
+  --color-luxe-gray: #424849;
+  --color-accent-vibrant: #FC8B24;
+  --color-status-error: #B20200;
+  --color-surface-ice: #F4F4F4;
+}
+
+@layer base {
+  body {
+    @apply text-luxe-dark font-sans bg-[#fff8f4];
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #e0e1f3;
+  border-radius: 10px;
+}
